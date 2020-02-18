@@ -1,0 +1,53 @@
+.container {
+  margin: 80px auto;
+  height: 100%;
+  width: 15vw;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #ffffff;
+}
+.app {
+  height: 50vh;
+}
+
+.top {
+  margin: 5px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.midde {
+  display: flex;
+  margin: 20px;
+
+  flex: 1;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.botton {
+  display: flex;
+  margin: auto;
+}
+
+.entrada {
+  margin: 0 auto;
+  height: 80px;
+  width: 90px;
+}
+
+.operadores {
+  margin-bottom: 4px;
+  width: 60px;
+  height: 60px;
+}
+
+.resultado {
+  height: 40px;
+  width: 80px;
+  margin-bottom: 20px;
+}
